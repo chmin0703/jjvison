@@ -35,5 +35,13 @@ filetype indent plugin on
 if has("syntax")         // syntax on
     syntax on
 endif
+
+git add .
+
+git commit -m upload
+
+git push
 ```
+
+
 
